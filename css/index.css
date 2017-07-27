@@ -1,0 +1,27 @@
+body{
+	background-color: #263238
+}
+
+.login-box{
+	width: 360px;
+	margin: 10% auto;
+}
+
+@media (max-width: 768px){
+.login-box{
+    width: 90%;
+    margin-top: 50px;
+}
+}
+.login-box .login-logo{
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 10px
+}
+
+.login-box-body{
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px
+}
