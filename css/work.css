@@ -1,0 +1,29 @@
+body{
+	
+	height: 2000px
+}
+
+.navbar-default{
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #fff;
+    border-color: #fff;
+    width: 1080px;
+    margin: 0 auto
+}
+
+#x{
+	background-color: #5cb85c;
+	color: #fff;
+	border-radius: 2px
+}
+
+.navbar-nav li a:hover{
+	background-color: #5cb85c;
+	color: #fff
+} 
+
+.navbar-default{
+
+}
+
