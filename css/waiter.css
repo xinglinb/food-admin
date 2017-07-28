@@ -1,0 +1,118 @@
+@media (min-width: 1080px){
+
+}
+
+body{
+	background-color: #f9ebc8
+}
+
+a:hover{
+	text-decoration:none
+}
+
+#head{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #fff
+}
+
+.navbar-default{
+	background-color: #01847f;
+	border: solid 1px #01847f;
+	padding-left: 15px;
+	border-radius: 0;
+	margin-bottom: 0
+}
+
+.navbar-default .navbar-header{
+	float: left;
+}
+
+.navbar-default .navbar-header a{
+	width: 100%;
+	color: #fff
+}
+
+.navbar-default button{
+	margin-right: 20px;
+	margin-top: 8px;
+	float: right;
+}
+
+#left{
+	position: absolute;
+	top: 52px;
+	bottom: 0;
+	background-color: #233445;
+	width: 80px;
+
+}
+
+#left .left-head{
+	color: #fff;
+	width: 80px;
+	padding-left: 10px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	    font-family: inherit;
+	background-color: #5cb85c;
+	margin-bottom: 20px
+}
+
+.col-md-12{
+	padding: 0
+}
+
+#left .left-head span{
+	margin-right: 10px
+}
+
+#left .container{
+	color: #6d7e8e;
+}
+
+#left .container .row{
+	padding: 0;
+	margin-top: 30px;
+	width: 80px;
+	cursor: pointer;
+	font-size: 5px;
+	height: 55px
+}
+
+#left .container .row span{
+	font-size: 25px;
+	margin-left: 27px;
+	margin-top: 5px
+}
+
+#left .container .row p{
+	margin-top: 5px;
+	font-size: 5px;
+	text-align: center;
+}
+
+#left .container .act{
+	color: #e1e5e9;
+	border-left: solid 2px #5cb85c;
+}
+
+#left .container .row:hover{
+	color: #e1e5e9
+}
+
+#right{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 52px;
+	left: 80px;
+}
+
+#right .right-head{
+	height: 36px;
+	background-color: #fff
+}
