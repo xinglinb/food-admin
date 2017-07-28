@@ -21,7 +21,7 @@ a:hover{
 .navbar-default{
 	background-color: #01847f;
 	border: solid 1px #01847f;
-	padding-left: 15px;
+	padding-left: 0px;
 	border-radius: 0;
 	margin-bottom: 0
 }
