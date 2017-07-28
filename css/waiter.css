@@ -79,14 +79,14 @@ a:hover{
 	margin-top: 30px;
 	width: 80px;
 	cursor: pointer;
-	font-size: 5px;
+	font-size: 10px;
 	height: 55px
 }
 
 #left .container .row span{
 	font-size: 25px;
 	margin-left: 27px;
-	margin-top: 5px
+	margin-top: 10px
 }
 
 #left .container .row p{
