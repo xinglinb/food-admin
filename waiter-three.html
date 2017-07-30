@@ -36,20 +36,20 @@
 
 			<div class="container">
 				<div class="row" style="margin-top: 0px">
-				 <a href="waiter.html">
-					<div class="col-md-12">
-						<span class="glyphicon glyphicon-user"></span>
-						<p>个人信息</p>
-					</div>
-				</a>
+					<a href="waiter.html">
+						<div class="col-md-12">
+							<span class="glyphicon glyphicon-user"></span>
+							<p>个人信息</p>
+						</div>
+					</a>
 				</div>
 				<div class="row">
-				<a href="waiter-two.html">
-					<div class="col-md-12">
-						<span class="glyphicon glyphicon-list"></span>
-						<p>菜单管理</p>
-					</div>
-				</a>
+					<a href="waiter-two.html">
+						<div class="col-md-12">
+							<span class="glyphicon glyphicon-list"></span>
+							<p>菜单管理</p>
+						</div>
+					</a>
 				</div>
 				<div class="row act">
 					<div class="col-md-12">
@@ -79,7 +79,89 @@
 						<div class="col-md-12">
 							<div class="panel panel-default">
 								<div class="panel-body">
-								
+									<form class="form-horizontal" method="get" data-validate="parsley">
+										<div class="form-group">
+											<p class="col-lg-12" style="margin-top: -10px">
+												推荐人信息录入
+											</p>
+											
+										</div>
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												推荐人：
+											</label>
+											<div class="col-lg-6">
+												<input type="text" name="input" placeholder="验证推荐人" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+												<div>
+													<p id="alt-red">推荐人不存在！！！</p>
+												</div>
+												
+											</div>
+											<div class="col-lg-2">
+												<button id="but-alt" type="button" class="btn btn-primary btn-sm">
+												<span style="margin-right: 5px" class="glyphicon glyphicon-search"></span>验证
+												</button>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												姓名：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="input" placeholder="请输入真实姓名" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												手机号：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="input" placeholder="请输入手机号" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												密码：
+											</label>
+											<div class="col-lg-8">
+												<input type="password" name="input" placeholder="请输入密码" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												确定密码：
+											</label>
+											<div class="col-lg-8">
+												<input type="password" name="input" placeholder="请再次输入密码" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
+
+										<hr>
+										<div class="form-group">
+											<p class="col-lg-12">
+												消费信息录入
+											</p>
+											
+										</div>
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												总消费金额：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="input" placeholder="请输入实际消费金额" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
+
+									</form>
 
 								</div>
 							</div>
