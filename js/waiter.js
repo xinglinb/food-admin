@@ -4,7 +4,7 @@ window.onload=function(){
 	});
 	
 	$("#btn-alt").click(function(){
-		$("#alt-red").fadeToggle();
+		$("#alt-red").show();
 	});
 
 
