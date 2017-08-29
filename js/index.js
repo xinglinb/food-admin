@@ -5,19 +5,21 @@ window.onload=function(){
 		var password=$("*[name='password']").val();
 		$.ajax({
 			type:"get",
-			url:"",
+			url:"/ldss/user/login",
 			data:{
-				userid:"phone",
-				userpsswd:md5("password")
+				usertel:phone,
+				userpasswd:md5(password)
 			},
 			dataType:"json",
 			success: function (data) {
-				alert("1："+data.userId);
-				if(data){
-					alert("2："+data.userPasswd);
+				if(data.success){
+					window.location.href="/ldss/html/waiter.html";
+				}else{
+					alert("用户名或密码错误");
 				}
 			}
 		})
+
 	});
 
 }

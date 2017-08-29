@@ -1,4 +1,4 @@
-#right .container .row .panel-body table{
+table{
 	font-size: 15px;
 	text-align: center;
 	padding: 0
@@ -20,6 +20,6 @@
 #right .container .row .panel-body table button{
 	width: 45px;
 	height: 22px;
-	font-size: 5px;
+	font-size: 10px;
 	padding: 0
 }

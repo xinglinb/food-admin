@@ -70,6 +70,7 @@ $("#btn-alt").click(function(){
 				sessionStorage.refereeId = data.message;
 				$("input").removeAttr("disabled");
 				$("button").removeAttr("disabled");
+				$("select").removeAttr("disabled");
 			}
 			else{
 				$("#alt-red").show();
@@ -91,7 +92,7 @@ $("#three-submit").click(function(){
 				userid:$("*[name='three-name']").val(),
 				userid:$("*[name='three-phone']").val(),
 				userid:$("*[name='three-password']").val(),
-				userid:$("*[name='three-money']").val(),
+				// userid:$("*[name='three-money']").val(),
 			},
 			dataType:"json",
 			success: function (data) {
