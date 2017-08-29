@@ -6,6 +6,7 @@
 
 #right .container .row .panel-body .pan-head{
 	/*margin-bottom: 20px*/
+	z-index: 100
 }
 
 #right .container .row .panel-body .pan-head p{
