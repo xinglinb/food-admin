@@ -170,10 +170,24 @@ a:hover{
 #right .con .container .row .panel .from-top{
 
 	padding-bottom: 20px;
-	text-align: center;
-	float: left;
+
 	height: 15px;
 	font-size: 20px
+}
+
+@media (min-width: 768px) {
+	#right .con .container .row .panel .from-top{
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 768px) {
+	#right .con .container .row .panel .from-top{
+		text-align: left;
+		margin-left: 15px
+	}
+
 }
 
 #right .con .container .row .panel .col-lg-12{
