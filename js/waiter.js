@@ -33,20 +33,20 @@ $(".twoAlter").click(function(){
 	alert($(this).attr("name").split("-")[1]);
 })
 
-$(".twoDelete").click(function(){
+// $(".twoDelete").click(function(){
 
-	var r=confirm("你确定要退出登录！");
-	if (r==true)
-	{	
-		alert($(this).attr("name").split("-")[1]);
-		window.location.assign("add-menu.html")
-	}
-	else
-	{
+// 	var r=confirm("你确定要退出登录！");
+// 	if (r==true)
+// 	{	
+// 		alert($(this).attr("name").split("-")[1]);
+// 		window.location.assign("add-menu.html")
+// 	}
+// 	else
+// 	{
 
-	}
+// 	}
 
-})
+// })
 
 $("#btn-add").click(function(){
 	window.location.assign("add-menu.html")

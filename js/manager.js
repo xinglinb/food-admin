@@ -29,24 +29,25 @@ $("#one-submit").click(function(){
 
 //第二个页面
 
-$(".twoAlter").click(function(){
+$(".wmoney").click(function(){
 	alert($(this).attr("name").split("-")[1]);
+	window.location.assign("money-view.html")
 })
 
-$(".twoDelete").click(function(){
+// $(".twoDelete").click(function(){
 
-	var r=confirm("你确定要退出登录！");
-	if (r==true)
-	{	
-		alert($(this).attr("name").split("-")[1]);
-		window.location.assign("add-menu.html")
-	}
-	else
-	{
+// 	var r=confirm("你确定要退出登录！");
+// 	if (r==true)
+// 	{	
+// 		alert($(this).attr("name").split("-")[1]);
+// 		window.location.assign("add-menu.html")
+// 	}
+// 	else
+// 	{
 
-	}
+// 	}
 
-})
+// })
 
 $("#btn-add").click(function(){
 	window.location.assign("add-menu.html")
@@ -64,7 +65,6 @@ $(".waiter").click(function(){
 	if (r==true)
 	{	
 		alert($(this).attr("name").split("-")[1]);
-		window.location.assign("add-waiter.html")
 	}
 	else
 	{
