@@ -18,8 +18,6 @@ window.onload=function(){
 				}
 			}
 		})
-
-		window.location.assign("waiter/waiter.html")
 	});
 
 }

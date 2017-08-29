@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>餐饮营销支持系统</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/waiter.css">
+</head>
+<body>
+	<div id="head">
+		<div class="navbar navbar-default  navbar-inverse" role="navigation">
+			<div class="navbar-header">
+				<a href="##" class="navbar-brand">餐饮营销支持系统</a>
+			</div>
+			<button type="submit" class="btn btn-danger">
+				<span style="margin-right: 5px" class="glyphicon glyphicon-off"></span>注销
+			</button>
+		</div>
+
+	</div>
+	
+	<div id="left">
+		<!-- <div class="list-group">
+		<a href="##" class="list-group-item active btn-lg">图解CSS3</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-success">W3cplus</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-info">慕课网</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-warning">Sass中国</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-danger">Mobile教程</a>
+		</div> -->
+
+		<p class="left-head">
+			经理登录</p>
+
+			<div class="container">
+				<div class="row" style="margin-top: 0px">
+					<a href="manager.html">
+						<div class="col-md-12">
+							<span class="glyphicon glyphicon-user"></span>
+							<p>个人信息</p>
+						</div>
+					</a>
+				</div>
+				<div class="row">
+					<a href="manager-two.html">
+						<div class="col-md-12">
+							<span class="glyphicon glyphicon-th"></span>
+							<p>收入查询</p>
+						</div>
+					</a>
+				</div>
+				<div class="row act">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-asterisk"></span>
+						<p>服务员管理</p>
+					</div>
+
+				</div>
+				<div class="row">
+					<div class="col-md-12"></div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="right">
+			<div class="right-head">
+				<ol class="breadcrumb">
+					<li><a href="#">首页</a></li>
+					<li><a href="manager-three.html">服务员管理</a></li>
+					<li class="active">服务员添加</li>
+				</ol> 
+			</div>
+			<div class="con">
+
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<form class="form-horizontal" method="get" data-validate="parsley">
+										<div class="form-group">
+											<p class="col-lg-12" style="margin-top: -10px">
+												推荐人信息录入
+											</p>
+											
+										</div>
+										
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												姓名：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="add-name" placeholder="请输入真实姓名" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												身份证号：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="add-identity" placeholder="请输入身份证号" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												分店选择：
+											</label>
+											<div class="col-lg-5">
+												<select name="店铺" class="form-control"> 
+													<option>哈尔滨店</option> 
+													<option>店铺二</option> 
+													<option>店铺三</option> 
+													
+												</select>
+											</div>
+
+										</div>
+										
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												手机号：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="add-phone" placeholder="请输入手机号" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												密码：
+											</label>
+											<div class="col-lg-8">
+												<input type="password" name="add-password" placeholder="请输入密码" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												确定密码：
+											</label>
+											<div class="col-lg-8">
+												<input type="password" name="add-bpassword" placeholder="请再次输入密码" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<div class="col-lg-2 col-md-offset-5">
+												<button class="btn btn-danger" type="reset">重 置</button>
+												<button style="margin-left: 15px" class="btn btn-primary" type="button" id="add-submit">提 交</button>  
+											</div>
+											
+										</div>
+									</form>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/waiter.js"></script>
+		<script src="../js/Jquary/jquery-3.2.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script> 
+	</body>
+	</html>
