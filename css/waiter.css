@@ -116,7 +116,7 @@ a:hover{
 	bottom: 0;
 	top: 52px;
 	left: 80px;
-	overflow-y:auto
+	overflow:auto
 }
 
 #right .right-head{
@@ -135,6 +135,7 @@ a:hover{
 	margin-top: 20px;
 	font-size: 20px
 }
+
 
 #right .row .row .control-label{
 	text-align: right;
@@ -205,4 +206,21 @@ a:hover{
 	top: 35px;
 	left: 20px;
 	display: none;
+}
+
+
+@media (min-width: 848px) {
+	.container {
+		width: 750px;
+	}
+}
+@media (min-width: 1072px) {
+	.container {
+		width: 970px;
+	}
+}
+@media (min-width: 1280px) {
+	.container {
+		width: 1170px;
+	}
 }
