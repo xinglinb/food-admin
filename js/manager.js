@@ -31,7 +31,7 @@ $("#one-submit").click(function(){
 
 $(".wmoney").click(function(){
 	alert($(this).attr("name").split("-")[1]);
-	window.location.assign("money-view.html")
+	window.location.assign("money-make.html")
 })
 
 // $(".twoDelete").click(function(){

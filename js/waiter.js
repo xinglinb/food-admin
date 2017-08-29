@@ -27,19 +27,20 @@ $("#one-submit").click(function(){
 
 });
 
-//第二个页面
+// //第二个页面
 
-$(".twoAlter").click(function(){
-	alert($(this).attr("name").split("-")[1]);
-})
+// $(".twoAlter").click(function(){
+// 	alert($(this).attr("name").split("-")[1]);
+// 	window.location.assign("make-menu.html")
+// })
 
-// $(".twoDelete").click(function(){
+// $(".menuDelete").click(function(){
 
-// 	var r=confirm("你确定要退出登录！");
+// 	var r=confirm("你确定删除！");
 // 	if (r==true)
 // 	{	
 // 		alert($(this).attr("name").split("-")[1]);
-// 		window.location.assign("add-menu.html")
+// 		window.location.assign("waiter-two.html")
 // 	}
 // 	else
 // 	{
@@ -48,11 +49,11 @@ $(".twoAlter").click(function(){
 
 // })
 
-$("#btn-add").click(function(){
-	window.location.assign("add-menu.html")
-});
+// $("#btn-add").click(function(){
+// 	window.location.assign("add-menu.html")
+// });
 
-//第三个页面
+//第二个页面
 
 
 $("#btn-alt").click(function(){
