@@ -44,7 +44,7 @@ $(".menuDelete").click(function(){
 	if (r==true)
 	{	
 		alert($(this).attr("name").split("-")[1]);
-		window.location.assign("boss-two.html")
+		window.location.assign("boss-four.html")
 	}
 	else
 	{
