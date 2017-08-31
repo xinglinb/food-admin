@@ -29,10 +29,10 @@ $("#one-submit").click(function(){
 
 //第二个页面
 
-$(".wmoney").click(function(){
-	alert($(this).attr("name").split("-")[1]);
-	window.location.assign("money-make.html")
-})
+// $(".wmoney").click(function(){
+// 	alert($(this).attr("name").split("-")[1]);
+// 	window.location.assign("money-make.html")
+// })
 
 // $(".twoDelete").click(function(){
 

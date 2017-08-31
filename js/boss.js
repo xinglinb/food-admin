@@ -29,6 +29,29 @@ $("#one-submit").click(function(){
 
 //第二个页面
 
+$("#two-add").click(function(){
+	window.location.assign("add-shop.html")
+});
+
+$(".shop").click(function(){
+	alert($(this).attr("name").split("-")[1]);
+	window.location.assign("make-shop.html")
+})
+
+$(".shopDelete").click(function(){
+
+	var r=confirm("你确定删除！");
+	if (r==true)
+	{	
+		alert($(this).attr("name").split("-")[1]);
+		window.location.assign("boss-two.html")
+	}
+	else
+	{
+
+	}
+	
+})
 //第三个页面
 
 //第四个页面

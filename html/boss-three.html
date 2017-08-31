@@ -37,12 +37,13 @@
 		</p>
 
 		<div class="container">
-			<div class="row act" style="margin-top: 0px">
-				<div class="col-md-12">
-					<span class="glyphicon glyphicon-user"></span>
-					<p>个人信息</p>
-				</div>
-
+			<div class="row" style="margin-top: 0px">
+				<a href="boss.html">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-user"></span>
+						<p>个人信息</p>
+					</div>
+				</a>
 			</div>
 			<div class="row">
 				<a href="boss-two.html">
@@ -52,13 +53,13 @@
 					</div>
 				</a>
 			</div>
-			<div class="row">
-				<a href="boss-three.html">
-					<div class="col-md-12">
-						<span class="glyphicon glyphicon-plus-sign"></span>
-						<p>店铺人员管理</p>
-					</div>
-				</a>
+			<div class="row act">
+				
+				<div class="col-md-12">
+					<span class="glyphicon glyphicon-plus-sign"></span>
+					<p>店铺人员管理</p>
+				</div>
+
 			</div>
 			<div class="row">
 				<a href="boss-four.html">
@@ -105,102 +106,82 @@
 							<div class="panel-body">
 								<div class="row">
 									<p class="from-top">
-										个人信息管理
+										店铺人员管理
 									</p>
 								</div>
 								<div class="row">
 									<label class="col-lg-3 control-label">
-										照片：
+										选择地区和店铺：
 									</label>
-									<div class="col-lg-8">
-										<span class="glyphicon glyphicon-user"></span>
+									<div class="col-lg-4">
+										<select name="地区" class="form-control"> 
+											<option>地区一</option> 
+											<option>地区二</option> 
+											<option>地区三</option> 
+											<option>地区四</option> 
+										</select>
 									</div>
-								</div>
-								<div class="row">
-									<label class="col-lg-3 control-label">
-										姓名：
-									</label>
-									<div class="col-lg-8">
-										乱七八糟
-									</div>
-								</div>
-								<div class="row">
-									<label class="col-lg-3 control-label">
-										手机号：
-									</label>
-									<div class="col-lg-8">
-										15211111111
-									</div>
-								</div>
-								<div class="row">
-									<label class="col-lg-3 control-label">
-										密码：
-									</label>
-									<div class="col-lg-8">
-										<button type="button" class="btn btn-primary btn-sm" id="btn-form">
-											<span style="margin-right: 5px" class="glyphicon glyphicon-refresh"></span>修改
-										</button>
-									</div>
-								</div>
-								<div class="row" id="row-from">
-									<form class="form-horizontal" method="get">
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-												旧密码：
-											</label>
-											<div class="col-lg-8">
-												<input type="password" name="old-password" placeholder="Old Password" class="bg-focus form-control">
-											</div>
-											
-										</div>
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-												新密码：
-											</label>
-											<div class="col-lg-8">
-												<input type="password" name="new-password" placeholder="New Password" class="bg-focus form-control">
-											</div>
-											
-										</div>
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-												确定新密码：
-											</label>
-											<div class="col-lg-8">
-												<input type="password" name="ne-password" placeholder="New Password" class="bg-focus form-control">
-											</div>
-											
-										</div>
 
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-											</label>
-											<div class="col-lg-8">
-												<button class="btn btn-danger" type="reset">重置</button>
-												<button class="btn btn-primary" type="button" id="one-submit">提交</button>  
-											</div>
-											
-										</div>
-										
-									</form>
-								</div>
-								<div class="row">
-									<label class="col-lg-3 control-label">
-										服务地区：
-									</label>
-									<div class="col-lg-8">
-										哈尔滨
+									<div class="col-lg-4">
+										<select name="店铺" class="form-control">
+											<option>店铺一</option> 
+											<option>店铺二</option> 
+											<option>店铺三</option> 
+											<option>店铺四</option> 
+										</select>
 									</div>
+									
 								</div>
 
 								<div class="row">
-									<label class="col-lg-3 control-label">
-										身份证号：
-									</label>
-									<div class="col-lg-8">
-										421381152161461644
+										<div class="col-lg-10 col-lg-offset-1">
+											<div class="table-responsive">
+												<table class="table table-striped table-bordered table-hover">
+													<thead>
+														<tr>
+															<th>编号</th>
+															<th>名称</th>
+															<th>手机号</th>
+															<th>身份证号</th>
+															<th>身份</th>
+															<th>工资</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>1</td>
+															<td>杨国良</td>
+															<td>15256909020</td>
+															<td>421381152161461644</td>
+															<td>经理</td>
+															<td>￥2000</td>
+														</tr>
+
+														<tr>
+															<td>1</td>
+															<td>杨国良</td>
+															<td>15256909020</td>
+															<td>421381152161461644</td>
+															<td>店员</td>
+															<td>￥2000</td>
+														</tr>
+
+														<tr>
+															<td>1</td>
+															<td>杨国良</td>
+															<td>15256909020</td>
+															<td>421381152161461644</td>
+															<td>店员</td>
+															<td>￥2000</td>
+														</tr>
+
+														
+													</tbody>
+												</table>
+											</div>
+										</div>
+
 									</div>
-								</div>
 
 							</div>
 						</div>

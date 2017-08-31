@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,11 +15,9 @@
 			<div class="navbar-header">
 				<a href="##" class="navbar-brand">餐饮营销支持系统</a>
 			</div>
-			<!-- 	<a href="javascript:if(confirm('确定要推出登录吗?'))location='sign.html'"> -->
 			<button type="submit" class="btn btn-danger">
 				<span style="margin-right: 5px" class="glyphicon glyphicon-off"></span>注销
 			</button>
-			<!-- </a> -->
 		</div>
 
 	</div>
@@ -46,13 +43,13 @@
 						</div>
 					</a>
 				</div>
-				<div class="row">
-					<a href="boss-two.html">
-						<div class="col-md-12">
-							<span class="glyphicon glyphicon-home"></span>
-							<p>店铺管理</p>
-						</div>
-					</a>
+				<div class="row act">
+					
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-home"></span>
+						<p>店铺管理</p>
+					</div>
+					
 				</div>
 				<div class="row">
 					<a href="boss-three.html">
@@ -62,13 +59,13 @@
 						</div>
 					</a>
 				</div>
-				<div class="row act">
-
+				<div class="row">
+					<a href="boss-four.html">
 						<div class="col-md-12">
 							<span class="glyphicon glyphicon-list"></span>
 							<p>菜单管理</p>
 						</div>
-					
+					</a>
 				</div>
 				<div class="row">
 					<a href="boss-five.html">
@@ -94,113 +91,112 @@
 			<div class="right-head">
 				<ol class="breadcrumb">
 					<li><a href="#">首页</a></li>
-					<li><a href="boss-four.html">菜单管理</a></li>
-					<li class="active">菜单添加</li>
+					<li><a href="boss-two.html">店铺数据详情</a></li>
+					<li class="active">店铺添加</li>
 				</ol> 
 			</div>
 			<div class="con">
 
 				<div class="container">
-					
 					<div class="row">
 						<div class="col-md-12">
 							<div class="panel panel-default">
 								<div class="panel-body">
 									<div class="row">
 										<p class="from-top">
-											菜单添加
+											店铺添加
 										</p>
 									</div>
 									<form class="form-horizontal" method="get" data-validate="parsley">
 										
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												店铺名称：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="shop-name" placeholder="请输入店铺名称" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												地区：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="shop-place" placeholder="请输入店铺地区" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<hr>
+										<div class="form-group">
+											<p class="col-lg-12">
+												店铺经理信息录入
+											</p>
+
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												姓名：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="manager-name" placeholder="请输入真实姓名" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												身份证号：
+											</label>
+											<div class="col-lg-8">
+												<input type="text" name="manager-identity" placeholder="请输入身份证号" class="bg-focus form-control parsley-validated" >
+											</div>
+											
+										</div>
+
+										
 										
 										<div class="form-group">
 											<label class="col-lg-3 control-label">
-												菜名：
+												手机号：
 											</label>
 											<div class="col-lg-8">
-												<input type="text" name="菜名" placeholder="请输入菜的名称" class="bg-focus form-control parsley-validated">
+												<input type="text" name="manager-phone" placeholder="请输入手机号" class="bg-focus form-control parsley-validated" >
 											</div>
 											
 										</div>
 
 										<div class="form-group">
 											<label class="col-lg-3 control-label">
-												分店选择：
-											</label>
-											<div class="col-lg-5">
-												<select name="店铺" class="form-control"> 
-													<option>哈尔滨店</option> 
-													<option>店铺二</option> 
-													<option>店铺三</option> 
-													
-												</select>
-											</div>
-
-											
-
-										</div>
-
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-												口味/分量：
-											</label>
-											<div class="col-lg-2">
-												<select name="口味" class="form-control"> 
-													<option>不辣</option> 
-													<option>微辣</option> 
-													<option>辣</option> 
-													
-												</select>
-											</div>
-
-											<div class="col-lg-3">
-												<select name="分量" class="form-control"> 
-													<option>1人份</option> 
-													<option>2人份</option> 
-													<option>3人份</option> 
-													<option>4人份</option> 
-												</select>
-											</div>
-
-										</div>
-
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-												价钱：
-											</label>
-											<div class="col-lg-3">
-												<input type="text" name="整数" placeholder="菜价的整数部分" class="bg-focus form-control parsley-validated">
-											</div>
-
-											<div class="col-lg-2">
-												<input type="text" name="小数" placeholder="菜价的小数部分" class="bg-focus form-control parsley-validated">
-											</div>
-											
-										</div>
-
-										<div class="form-group">
-											<label class="col-lg-3 control-label">
-												菜的描述：
+												密码：
 											</label>
 											<div class="col-lg-8">
-												<textarea name="描述" class="form-control" rows="5"></textarea>
+												<input type="password" name="manager-password" placeholder="请输入密码" class="bg-focus form-control parsley-validated" >
 											</div>
 											
 										</div>
 
+										<div class="form-group">
+											<label class="col-lg-3 control-label">
+												确定密码：
+											</label>
+											<div class="col-lg-8">
+												<input type="password" name="manager-bpassword" placeholder="请再次输入密码" class="bg-focus form-control parsley-validated" data-required="true" data-type="email">
+											</div>
+											
+										</div>
 										<div class="form-group">
 											<div class="col-lg-2 col-lg-offset-5">
 												<button class="btn btn-danger" type="reset">重 置</button>
-												<button style="margin-left: 15px" class="btn btn-primary" type="submit">提 交</button>  
+												<button style="margin-left: 15px" class="btn btn-primary" type="button" id="shop-submit">提 交</button>  
 											</div>
 											
 										</div>
 									</form>
-									
-									
-									
-									
+
 								</div>
 							</div>
 						</div>
@@ -210,7 +206,7 @@
 
 			</div>
 		</div>
-		<script type="text/javascript" src="../js/boss.js"></script>
+		<script type="text/javascript" src="../js/waiter.js"></script>
 		<script src="../js/Jquary/jquery-3.2.1.min.js"></script>
 		<script src="../js/bootstrap.min.js"></script> 
 	</body>
