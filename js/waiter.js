@@ -54,7 +54,17 @@ $("#one-submit").click(function(){
 // });
 
 //第二个页面
+var ox=0;
 
+$(".radioo").click(function(){
+	$("#people").slideUp();
+	ox=0
+})
+
+$(".radiox").click(function(){
+	$("#people").slideDown();
+	ox=1
+})
 
 $("#btn-alt").click(function(){
 

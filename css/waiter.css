@@ -313,3 +313,7 @@ a:hover{
 	font-size: 20px;
 	margin-top: 5px
 }
+
+#people{
+	display: none;
+}
