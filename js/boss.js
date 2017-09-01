@@ -83,7 +83,18 @@ $("#btn-add").click(function(){
 
 //第五个页面
 
-
+var reg = new RegExp("^(100|[1-9]\\d|\\d)$");
+$("#make-profit").click(function(){
+	
+	var x=$("*[name='first']").val();
+	var y=$("*[name='second']").val();
+	var z=$("*[name='third']").val();
+	if (reg.test(x)&&reg.test(y)&&reg.test(z)) {
+		
+	}else{
+		alert("请输入0到100之间的整数！")
+	}
+})
 //第六个页面
 }
 

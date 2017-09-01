@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>餐饮营销支持系统</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/waiter.css">
+	<link rel="stylesheet" type="text/css" href="../css/boss.css">
+</head>
+<body>
+	<div id="head">
+		<div class="navbar navbar-default  navbar-inverse" role="navigation">
+			<div class="navbar-header">
+				<a href="##" class="navbar-brand">餐饮营销支持系统</a>
+			</div>
+			<button type="submit" class="btn btn-danger">
+				<span style="margin-right: 5px" class="glyphicon glyphicon-off"></span>注销
+			</button>
+		</div>
+
+	</div>
+	
+	<div id="left">
+		<!-- <div class="list-group">
+		<a href="##" class="list-group-item active btn-lg">图解CSS3</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-success">W3cplus</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-info">慕课网</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-warning">Sass中国</a>
+			<a href="##" class="list-group-item btn-lg list-group-item-danger">Mobile教程</a>
+		</div> -->
+
+		<p class="left-head">
+			boss登录
+		</p>
+
+		<div class="container">
+
+			<div class="row act" style="margin-top: 0px">
+				<a href="boss.html">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-user"></span>
+						<p>个人信息</p>
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a href="boss-two.html">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-home"></span>
+						<p>店铺管理</p>
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a href="boss-three.html">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-plus-sign"></span>
+						<p>店铺人员管理</p>
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a href="boss-four.html">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-list"></span>
+						<p>菜单管理</p>
+					</div>
+				</a>
+			</div>
+			<div class="row">
+				<a href="boss-five.html">
+					<div class="col-md-12">
+						<span class="glyphicon glyphicon-retweet"></span>
+						<p>收益比例</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="row act">
+				
+				<div class="col-md-12">
+					<span class="glyphicon glyphicon-th"></span>
+					<p>收入比例</p>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+
+	<div id="right">
+		<div class="right-head">
+			<ol class="breadcrumb">
+				<li><a href="#">首页</a></li>
+				<li class="active">收入比例</li>
+			</ol> 
+		</div>
+		<div class="con">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<div class="row">
+									<p class="from-top">
+										收入比例
+									</p>
+								</div>
+								<div class="row">
+									<label class="col-lg-3 control-label">
+										选择地区店铺和时间：
+									</label>
+									<div class="col-lg-4">
+										<select name="地区" class="form-control"> 
+											<option>地区一</option> 
+											<option>地区二</option> 
+											<option>地区三</option> 
+											<option>地区四</option> 
+										</select>
+									</div>
+
+									<div class="col-lg-4">
+										<select name="店铺" class="form-control">
+											<option>店铺一</option> 
+											<option>店铺二</option> 
+											<option>店铺三</option> 
+											<option>店铺四</option> 
+										</select>
+									</div>
+									
+								</div>
+								<div class="row">
+									<label class="col-lg-4 control-label">
+										年：
+									</label>
+									<div class="col-lg-3">
+										<select name="年" class="form-control"> 
+											<option>2017</option> 
+											<option>2016</option> 
+											<option>2015</option> 
+										</select>
+									</div>
+
+									<label class="col-lg-1 control-label">
+										月：
+									</label>
+									<div class="col-lg-3">
+										<select name="月" class="form-control">
+											<option>1</option> 
+											<option>2</option> 
+											<option>3</option> 
+											<option>4</option> 
+											<option>5</option> 
+											<option>6</option> 
+											<option>7</option> 
+											<option>8</option> 
+											<option>9</option> 
+											<option>10</option> 
+											<option>11</option> 
+											<option>12</option> 
+										</select>
+									</div>
+
+
+								</div>
+								<div class="row">
+
+									<div class="col-lg-10 col-lg-offset-1">
+										<div class="table-responsive">
+											<table class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th>编号</th>
+														<th>时间</th>
+														<th>店铺</th>
+														<th>日推荐金</th>
+														<th>日推荐人收入</th>
+														<th>日收入</th>
+
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1</td>
+														<td>2017/5/1</td>
+														<td>哈尔滨店</td>
+														<td>￥800.00</td>
+														<td>￥1200.00</td>
+														<td>￥10000.00</td>
+
+													</tr>
+
+													<tr>
+														<td>2</td>
+														<td>2017/5/2</td>
+														<td>哈尔滨店</td>
+														<td>￥800.00</td>
+														<td>￥1200.00</td>
+														<td>￥10000.00</td>
+
+													</tr>
+
+
+													<tr>
+														<th colspan="3">总计</th>
+														<td>￥28000.00</td>
+														<td>￥32000.00</td>
+														<td>￥300000.00</td>
+
+													</tr>
+
+												</tbody>
+											</table>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../js/boss.js"></script>
+	<script src="../js/Jquary/jquery-3.2.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script> 
+</body>
+</html>
