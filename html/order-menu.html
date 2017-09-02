@@ -34,7 +34,7 @@
 			菜 单
 		</p>
 		<div class="container">
-			<div class="row act" id="menu-A" style="margin-top: 0px">
+			<div class="row" id="menu-AA" style="margin-top: 0px">
 				<div class="col-md-12">
 					<span class="glyphicon glyphicon-inbox"></span>
 					<p>A 类</p>
@@ -42,13 +42,13 @@
 
 			</div>
 
-			<div class="row" id="menu-B">
+			<div class="row" id="menu-BB">
 				<div class="col-md-12">
 					<span class="glyphicon glyphicon-leaf"></span>
 					<p>B 类</p>
 				</div>
 			</div>
-			<div class="row" id="menu-C">
+			<div class="row" id="menu-CC">
 				<div class="col-md-12">
 					<span class="glyphicon glyphicon-glass"></span>
 					<p>C 类</p>
@@ -60,7 +60,7 @@
 		<div class="right-head">
 			<ol class="breadcrumb">
 				<li><a href="#">菜单</a></li>
-				<li class="active" id="bav">A类</li>
+				<li class="active" id="bav">已点</li>
 			</ol> 
 		</div>
 		<div class="con">
@@ -71,7 +71,22 @@
 						<div class="panel panel-default">
 							<div class="panel-body">
 
-								<div class="row" style="margin-top: 10px">
+								<div class="row" style="margin-top: 20px">
+									<label class="col-lg-3 control-label">
+										选择桌号：
+									</label>
+									
+									<div class="col-lg-7">
+										<select name="桌号" class="form-control">
+											<option>A1</option> 
+											<option>A2</option> 
+											<option>A3</option> 
+											<option>A4</option> 
+										</select>
+									</div>
+									
+								</div>
+								<div class="row">
 									
 									<div class="col-lg-8 col-lg-offset-2">
 										<div class="table-responsive">
@@ -80,7 +95,8 @@
 													<tr>
 														<th>菜名</th>
 														<th>单价</th>
-														<th>点菜</th>
+														<th>份数</th>
+														<th>移除</th>
 
 													</tr>
 												</thead>
@@ -89,57 +105,81 @@
 													<tr>
 														<td>小炒肉</td>
 														<td>￥25</td>
+														<td>1</td>
 														<td>
-																<button type="button" class="btn btn-primary food" name="food-1">
-																	添 加
-																</button>
-															</td>
-													</tr>
-													<tr>
-														<td>小炒肉</td>
-														<td>￥25</td>
-														<td>
-																<button type="button" class="btn btn-primary food" name="food-1">
-																	添 加
-																</button>
-															</td>
-													</tr>
-													<tr>
-														<td>小炒肉</td>
-														<td>￥25</td>
-														<td>
-																<button type="button" class="btn btn-primary food" name="food-1">
-																	添 加
-																</button>
-															</td>
-													</tr>
-													<tr>
-														<td>小炒肉</td>
-														<td>￥25</td>
-														<td>
-																<button type="button" class="btn btn-primary food" name="food-1">
-																	添 加
-																</button>
-															</td>
-													</tr>
+															<button type="button" class="btn btn-primary 
+															reduce" name="
+															reduce-1">
+															移 除
+														</button>
+													</td>
+												</tr>
+												<tr>
+													<td>小炒肉</td>
+													<td>￥25</td>
+													<td>1</td>
+													<td>
+														<button type="button" class="btn btn-primary 
+														reduce" name="
+														reduce-1">
+														移 除
+													</button>
+												</td>
+											</tr>
+											<tr>
+												<td>小炒肉</td>
+												<td>￥25</td>
+												<td>1</td>
+												<td>
+													<button type="button" class="btn btn-primary 
+													reduce" name="
+													reduce-1">
+													移 除
+												</button>
+											</td>
+										</tr>
+										<tr>
+											<td>米饭</td>
+											<td>￥1</td>
+											<td>5</td>
+											<td>
+												<button type="button" class="btn btn-primary 
+												reduce" name="
+												reduce-1">
+												移 除
+											</button>
+										</td>
+									</tr>
+									<tr>
+										<th colspan="3">总价</th>
+										<td>￥80</td>
+									</tr>
 
 
-
-												</tbody>
-											</table>
-										</div>
-									</div>
-								</div>
-							</div>
-
+								</tbody>
+							</table>
 						</div>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-lg-2 col-lg-offset-5">
+						<button class="btn btn-primary" type="button" id="al-add">提 交</button> 
+						<button class="btn btn-danger" type="button" id="al-delete">取 消</button>
+
+					</div>
+				</div>
 			</div>
+
+
+
 		</div>
-
-
 	</div>
+</div>
+</div>
+</div>
+
+
+</div>
 </div>
 
 <script type="text/javascript" src="../js/order.js"></script>
