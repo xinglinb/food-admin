@@ -82,6 +82,7 @@ $("#btn-alt").click(function(){
 				$("input").removeAttr("disabled");
 				$("button").removeAttr("disabled");
 				$("select").removeAttr("disabled");
+				alert("验证通过！")
 			}
 			else{
 				$("#alt-red").show();

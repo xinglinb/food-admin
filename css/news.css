@@ -1,0 +1,19 @@
+#new{
+	position: absolute;
+	background-color: #d9534f;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 20px;
+	height: 15px;
+	line-height: 15px;
+	font-size: 5px;
+	left: 15px;
+	top: 0
+}
+
+#right .con .row .row .list-group,table{
+	font-size: 15px
+}
